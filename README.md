@@ -36,5 +36,4 @@ MIT License (see [LICENSE](https://github.com/Nompil/Bias-Audit-Report-SA/blob/m
 - <a name="ref16"></a>[16] Pillay, K. (2023). *Legal and ethical principles governing the use of artificial intelligence in South Africa*. African Journal of Legal Studies, 15(3), 201-220. [https://brill.com/view/journals/ajls/15/3/article-p201_3.xml](https://brill.com/view/journals/ajls/15/3/article-p201_3.xml)
 - <a name="ref17"></a>[17] Adebayo, J., & Ncube, C. (2024). *Ethical AI development in Africa: Integrating fairness and accountability*. African AI Research Consortium Report, 2024, 30-45. [https://aairc.org/reports/ethical-ai-2024](https://aairc.org/reports/ethical-ai-2024)
 
-## Contact
-[Your Name/Email] for questions or feedback.
+
