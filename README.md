@@ -6,7 +6,7 @@ This repository, hosted by the Nompil organization, contains a bias audit for a 
 - **[View Notebook (Bias_Audit_Report_SA.ipynb)](https://github.com/Nompil/Bias-Audit-Report-SA/blob/main/Bias_Audit_Report_SA.ipynb)**: Jupyter notebook with code, visuals, and analysis.
 - **[Download Notebook PDF (Bias_Audit_Report_SA.pdf)](https://github.com/Nompil/Bias-Audit-Report-SA/raw/main/Bias_Audit_Report_SA.pdf)**: PDF export.
 - **[Download Presentation Slides (Presentation_Slides.pdf)](https://github.com/Nompil/Bias-Audit-Report-SA/raw/main/Presentation_Slides.pdf)**: 7-slide summary.
-- **[Download Ethics Statement (Ethics_Statement.docx)](https://github.com/Nompil/Bias-Audit-Report-SA/raw/main/Ethics_Statement.docx)**: 500-word ethics statement.
+- **[Download Ethics Statement (Ethics_Statement.pdf)](https://github.com/Nompil/Bias-Audit-Report-SA/raw/main/Ethics_Statement.pdf)**: 500-word ethics statement.
 - **[View Visuals Folder](https://github.com/Nompil/Bias-Audit-Report-SA/tree/main/visuals)**: PNGs [](https://github.com/Nompil/Bias-Audit-Report-SA/blob/main/visuals/gini.png).
 
 ## Key Findings
