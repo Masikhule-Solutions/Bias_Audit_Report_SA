@@ -1,26 +1,18 @@
 # Bias Audit Report: Employment Prediction in South Africa
 
-## Project Overview
 This repository, hosted by the Masikhule organization, presents a bias audit of a synthetic employment prediction dataset (income > R50,000/year), simulating IBM AI Fairness 360. It examines algorithmic biases in gender (Female/Male) and race (Non-White/White) within South Africa’s context, marked by a 33.2% unemployment rate [<a href="#ref5">5</a>], a Gini coefficient of 0.63 [<a href="#ref0">0</a>], and historical inequalities from apartheid. Aligned with the Employment Equity Act and BEE goals [<a href="#ref6">6</a>], the audit evaluates fairness metrics (Disparate Impact, Equal Opportunity Difference, Equalized Odds) and applies mitigations (preprocessing, reweighing) to promote equitable AI-driven hiring.
 
-### Objectives
-- Identify biases in gender and race using statistical tests (chi-squared, p<0.05).
-- Implement and evaluate preprocessing and reweighing mitigations.
-- Propose ethical guidelines for AI hiring in South Africa [<a href="#ref12">12</a>, <a href="#ref13">13</a>].
-
-### Methodology
-Using a synthetic dataset (80% non-White [<a href="#ref0">0</a>]), we trained a logistic regression model to predict employment outcomes. Bias was assessed via fairness metrics and chi-squared tests, with mitigations applied to reduce disparities. Visualizations (e.g., accuracy vs. fairness) were generated using Python.
-
-### Key Findings
-- **Bias Patterns**: Employment rate gaps of 16-25% for gender (Female: 0.557, Male: 0.715) and race (Non-White: 0.594, White: 0.845), p<0.05 [<a href="#ref12">12</a>].
-- **Mitigations**: Improved Disparate Impact (0.696-0.788 to 0.989-1.043), with accuracy trade-offs (67.75% to 63.50-65.00%) [<a href="#ref9">9</a>].
-- **SA Context**: Addresses unemployment (33.2% [<a href="#ref5">5</a>]), Gini (0.63 [<a href="#ref0">0</a>]), and apartheid legacies [<a href="#ref6">6</a>].
-
-### Deliverables
-- **[Download Bias Audit Report (Bias_Audit_Report_SA.pdf)](https://github.com/Masikhule/Bias_Audit_Report_SA.pdf)**: Analysis, code, and visualizations.
-- **[Download Presentation Slides (Presentation.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Presentation.pdf)**: 7-slide Canva summary.
+## Project Structure
+- **[View Notebook (Bias_Audit_Report_SA.ipynb)](https://github.com/Masikhule/Bias-Audit-Report-SA/blob/main/Bias_Audit_Report_SA.ipynb)**: Jupyter notebook with code, visuals, and analysis (open in Jupyter/Colab; run all cells to reproduce results or view via [nbviewer](https://nbviewer.jupyter.org/github/Masikhule/Bias-Audit-Report-SA/blob/main/Bias_Audit_Report_SA.ipynb)).
+- **[Download Notebook PDF (Bias_Audit_Report_SA.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Bias_Audit_Report_SA.pdf)**: PDF export of the notebook.
+- **[Download Presentation Slides (Presentation_Slides.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Presentation_Slides.pdf)**: 7-slide Canva summary.
 - **[Download Ethics Statement (Ethics_Statement.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Ethics_Statement.pdf)**: 500-word ethics statement.
-- **[View Visuals Folder](https://github.com/Masikhule/Bias-Audit-Report-SA/tree/main/visuals)**: PNGs [](https://github.com/Masikhule/Bias-Audit-Report-SA/blob/main/visuals/gini.png).
+- **[View Visuals Folder](https://github.com/Masikhule/Bias-Audit-Report-SA/tree/main/visuals)**: PNGs (e.g., [gini.png](https://github.com/Masikhule/Bias-Audit-Report-SA/blob/main/visuals/gini.png)).
+
+## Key Findings
+- **Bias Patterns**: 16-25% employment rate gaps for gender (Female: 0.557, Male: 0.715) and race (Non-White: 0.594, White: 0.845), validated by chi-squared tests (p<0.05) [<a href="#ref12">12</a>].
+- **Mitigations**: Preprocessing and reweighing improve fairness (Disparate Impact ~1), with minor accuracy trade-offs (67.75% to 63.50-65.00%) [<a href="#ref9">9</a>].
+- **SA Context**: Addresses unemployment (33.2% [<a href="#ref5">5</a>]), Gini (0.63 [<a href="#ref0">0</a>]), and apartheid legacies [<a href="#ref6">6</a>].
 
 ## Usage
 1. Download **[Bias_Audit_Report_SA.pdf](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Bias_Audit_Report_SA.pdf)** for analysis and code.
