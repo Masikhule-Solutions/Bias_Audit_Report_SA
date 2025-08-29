@@ -1,27 +1,34 @@
 # Bias Audit Report: Employment Prediction in South Africa
 
-This repository, hosted by the Nompil organization, contains a bias audit for a synthetic employment prediction dataset (income > R50,000/year), simulating IBM AI Fairness 360. It analyzes gender (Female/Male) and race (Non-White/White) biases in South Africa’s context, addressing 33.2% unemployment [<a href="#ref5">5</a>], a Gini coefficient of 0.63 [<a href="#ref0">0</a>], and alignment with the Employment Equity Act and BEE goals [<a href="#ref6">6</a>].
+## Project Overview
+This repository, hosted by the Masikhule organization, presents a bias audit of a synthetic employment prediction dataset (income > R50,000/year), simulating IBM AI Fairness 360. It examines algorithmic biases in gender (Female/Male) and race (Non-White/White) within South Africa’s context, marked by a 33.2% unemployment rate [<a href="#ref5">5</a>], a Gini coefficient of 0.63 [<a href="#ref0">0</a>], and historical inequalities from apartheid. Aligned with the Employment Equity Act and BEE goals [<a href="#ref6">6</a>], the audit evaluates fairness metrics (Disparate Impact, Equal Opportunity Difference, Equalized Odds) and applies mitigations (preprocessing, reweighing) to promote equitable AI-driven hiring.
 
-## Project Structure
-- **[View Notebook (Bias_Audit_Report_SA.ipynb)](https://github.com/Nompil/Bias-Audit-Report-SA/blob/main/Bias_Audit_Report_SA.ipynb)**: Jupyter notebook with code, visuals, and analysis.
-- **[Download Notebook PDF (Bias_Audit_Report_SA.pdf)](https://github.com/Nompil/Bias-Audit-Report-SA/raw/main/Bias_Audit_Report_SA.pdf)**: PDF export.
-- **[Download Presentation Slides (Presentation_Slides.pdf)](https://github.com/Nompil/Bias-Audit-Report-SA/raw/main/Presentation_Slides.pdf)**: 7-slide summary.
-- **[Download Ethics Statement (Ethics_Statement.pdf)](https://github.com/Nompil/Bias-Audit-Report-SA/raw/main/Ethics_Statement.pdf)**: 500-word ethics statement.
-- **[View Visuals Folder](https://github.com/Nompil/Bias-Audit-Report-SA/tree/main/visuals)**: PNGs [](https://github.com/Nompil/Bias-Audit-Report-SA/blob/main/visuals/gini.png).
+### Objectives
+- Identify biases in gender and race using statistical tests (chi-squared, p<0.05).
+- Implement and evaluate preprocessing and reweighing mitigations.
+- Propose ethical guidelines for AI hiring in South Africa [<a href="#ref12">12</a>, <a href="#ref13">13</a>].
 
-## Key Findings
-- **Bias Patterns**: 16-25% employment rate gaps for gender (Female: 0.557, Male: 0.715) and race (Non-White: 0.594, White: 0.845), validated by chi-squared tests (p<0.05) [<a href="#ref12">12</a>].
-- **Mitigations**: Preprocessing and reweighing improve fairness (Disparate Impact ~1), with minor accuracy trade-offs (67.75% to 63.50-65.00%) [<a href="#ref9">9</a>].
+### Methodology
+Using a synthetic dataset (80% non-White [<a href="#ref0">0</a>]), we trained a logistic regression model to predict employment outcomes. Bias was assessed via fairness metrics and chi-squared tests, with mitigations applied to reduce disparities. Visualizations (e.g., accuracy vs. fairness) were generated using Python.
+
+### Key Findings
+- **Bias Patterns**: Employment rate gaps of 16-25% for gender (Female: 0.557, Male: 0.715) and race (Non-White: 0.594, White: 0.845), p<0.05 [<a href="#ref12">12</a>].
+- **Mitigations**: Improved Disparate Impact (0.696-0.788 to 0.989-1.043), with accuracy trade-offs (67.75% to 63.50-65.00%) [<a href="#ref9">9</a>].
 - **SA Context**: Addresses unemployment (33.2% [<a href="#ref5">5</a>]), Gini (0.63 [<a href="#ref0">0</a>]), and apartheid legacies [<a href="#ref6">6</a>].
 
+### Deliverables
+- **[Download Bias Audit Report (Bias_Audit_Report_SA.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Bias_Audit_Report_SA.pdf)**: Analysis, code, and visualizations.
+- **[Download Presentation Slides (Presentation_Slides.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Presentation_Slides.pdf)**: 7-slide Canva summary.
+- **[Download Ethics Statement (Ethics_Statement.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Ethics_Statement.pdf)**: 500-word ethics statement.
+- **[View Visuals Folder](https://github.com/Masikhule/Bias-Audit-Report-SA/tree/main/visuals)**: PNGs [](https://github.com/Masikhule/Bias-Audit-Report-SA/blob/main/visuals/gini.png).
+
 ## Usage
-1. Open **[Bias_Audit_Report_SA.ipynb](https://github.com/Nompil/Bias-Audit-Report-SA/blob/main/Bias_Audit_Report_SA.ipynb)** in Jupyter/Colab or [nbviewer](https://nbviewer.jupyter.org/github/Nompil/Bias-Audit-Report-SA/blob/main/Bias_Audit_Report_SA.ipynb).
-2. Install dependencies: NumPy, Pandas, Torch, Sklearn, Matplotlib, SciPy.
-3. Run cells to reproduce results.
-4. View `Presentation_Slides.pdf` and `Ethics_Statement.docx`.
+1. Download **[Bias_Audit_Report_SA.pdf](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Bias_Audit_Report_SA.pdf)** for analysis and code.
+2. Install dependencies to run code locally: `pip install numpy pandas torch sklearn matplotlib scipy`.
+3. Review `Presentation_Slides.pdf` and `Ethics_Statement.pdf`.
 
 ## License
-MIT License (see [LICENSE](https://github.com/Nompil/Bias-Audit-Report-SA/blob/main/LICENSE)).
+MIT License [](https://github.com/Masikhule/Bias-Audit-Report-SA/blob/main/LICENSE).
 
 ## References
 - <a name="ref0"></a>[0] Coetzer, W., & van Zyl, J. (2024). *Artificial intelligence and skilled employment in South Africa*. South African Journal of Economic and Management Sciences, 27(1), 45-56. [https://sajems.org/index.php/sajems/article/view/1234](https://sajems.org/index.php/sajems/article/view/1234)
@@ -35,5 +42,3 @@ MIT License (see [LICENSE](https://github.com/Nompil/Bias-Audit-Report-SA/blob/m
 - <a name="ref14"></a>[14] OECD. (2024). *AI watch: Global regulatory tracker – South Africa*. OECD Policy Brief, 2024, 1-15. [https://www.oecd.org/sti/ai-watch-south-africa-2024.htm](https://www.oecd.org/sti/ai-watch-south-africa-2024.htm)
 - <a name="ref16"></a>[16] Pillay, K. (2023). *Legal and ethical principles governing the use of artificial intelligence in South Africa*. African Journal of Legal Studies, 15(3), 201-220. [https://brill.com/view/journals/ajls/15/3/article-p201_3.xml](https://brill.com/view/journals/ajls/15/3/article-p201_3.xml)
 - <a name="ref17"></a>[17] Adebayo, J., & Ncube, C. (2024). *Ethical AI development in Africa: Integrating fairness and accountability*. African AI Research Consortium Report, 2024, 30-45. [https://aairc.org/reports/ethical-ai-2024](https://aairc.org/reports/ethical-ai-2024)
-
-
