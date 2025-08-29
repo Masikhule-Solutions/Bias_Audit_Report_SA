@@ -17,7 +17,7 @@ Using a synthetic dataset (80% non-White [<a href="#ref0">0</a>]), we trained a 
 - **SA Context**: Addresses unemployment (33.2% [<a href="#ref5">5</a>]), Gini (0.63 [<a href="#ref0">0</a>]), and apartheid legacies [<a href="#ref6">6</a>].
 
 ### Deliverables
-- **[Download Bias Audit Report (Bias_Audit_Report_SA.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Bias_Audit_Report_SA.pdf)**: Analysis, code, and visualizations.
+- **[Download Bias Audit Report (Bias_Audit_Report_SA.pdf)](https://github.com/Masikhule/Bias_Audit_Report_SA.pdf)**: Analysis, code, and visualizations.
 - **[Download Presentation Slides (Presentation.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Presentation.pdf)**: 7-slide Canva summary.
 - **[Download Ethics Statement (Ethics_Statement.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Ethics_Statement.pdf)**: 500-word ethics statement.
 - **[View Visuals Folder](https://github.com/Masikhule/Bias-Audit-Report-SA/tree/main/visuals)**: PNGs [](https://github.com/Masikhule/Bias-Audit-Report-SA/blob/main/visuals/gini.png).
