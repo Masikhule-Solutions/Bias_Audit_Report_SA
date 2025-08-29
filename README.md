@@ -18,7 +18,7 @@ Using a synthetic dataset (80% non-White [<a href="#ref0">0</a>]), we trained a 
 
 ### Deliverables
 - **[Download Bias Audit Report (Bias_Audit_Report_SA.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Bias_Audit_Report_SA.pdf)**: Analysis, code, and visualizations.
-- **[Download Presentation Slides (Presentation_Slides.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Presentation_Slides.pdf)**: 7-slide Canva summary.
+- **[Download Presentation Slides (Presentation.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Presentation.pdf)**: 7-slide Canva summary.
 - **[Download Ethics Statement (Ethics_Statement.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Ethics_Statement.pdf)**: 500-word ethics statement.
 - **[View Visuals Folder](https://github.com/Masikhule/Bias-Audit-Report-SA/tree/main/visuals)**: PNGs [](https://github.com/Masikhule/Bias-Audit-Report-SA/blob/main/visuals/gini.png).
 
