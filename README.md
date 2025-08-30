@@ -3,11 +3,12 @@
 This repository, hosted by the Masikhule organization, presents a bias audit of a synthetic employment prediction dataset (income > R50,000/year), simulating IBM AI Fairness 360. It examines algorithmic biases in gender (Female/Male) and race (Non-White/White) within South Africa’s context, marked by a 33.2% unemployment rate [<a href="#ref5">5</a>], a Gini coefficient of 0.63 [<a href="#ref0">0</a>], and historical inequalities from apartheid. Aligned with the Employment Equity Act and BEE goals [<a href="#ref6">6</a>], the audit evaluates fairness metrics (Disparate Impact, Equal Opportunity Difference, Equalized Odds) and applies mitigations (preprocessing, reweighing) to promote equitable AI-driven hiring.
 
 ## Project Structure
-- **[View Notebook (Bias_Audit_Report_SA.ipynb)](https://github.com/Masikhule-Solutions/Bias-Audit-Report-SA/blob/main/Bias_Audit_Report_SA.ipynb)**: Jupyter notebook with code, visuals, and analysis (open in Jupyter/Colab; run all cells to reproduce results or view via [nbviewer](https://nbviewer.jupyter.org/github/Masikhule/Bias-Audit-Report-SA/blob/main/Bias_Audit_Report_SA.ipynb)).
-- **[Download Notebook PDF (Bias_Audit_Report_SA.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Bias_Audit_Report_SA.pdf)**: PDF export of the notebook.
-- **[Download Presentation Slides (Presentation_Slides.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Presentation_Slides.pdf)**: 7-slide Canva summary.
-- **[Download Ethics Statement (Ethics_Statement.pdf)](https://github.com/Masikhule/Bias-Audit-Report-SA/raw/main/Ethics_Statement.pdf)**: 500-word ethics statement.
+- **[View Notebook (Bias_Audit_Report_SA.ipynb)](https://github.com/Masikhule-Solutions/Bias-Audit-Report-SA/blob/main/Bias_Audit_Report_SA.ipynb)**: Jupyter notebook with code, visuals, and analysis (open in Jupyter/Colab; run all cells to reproduce results or view via [nbviewer](https://nbviewer.jupyter.org/github/Masikhule-Solutions/Bias-Audit-Report-SA/blob/main/Bias_Audit_Report_SA.ipynb)).
+- **[Download Notebook PDF (Bias_Audit_Report_SA.pdf)](https://github.com/Masikhule-Solutions/Bias-Audit-Report-SA/raw/main/Bias_Audit_Report_SA.pdf)**: PDF export of the notebook.
+- **[Download Presentation Slides (Presentation.pdf)](https://github.com/Masikhule-Solutions/Bias-Audit-Report-SA/raw/main/Presentation.pdf)**: 7-slide Canva summary.
+- **[Download Ethics Statement (Ethics_Statement.pdf)](https://github.com/Masikhule-Solutions/Bias-Audit-Report-SA/raw/main/Ethics_Statement.pdf)**: 500-word ethics statement.
 - **[View Visuals Folder](https://github.com/Masikhule/Bias-Audit-Report-SA/tree/main/visuals)**: PNGs (e.g., [gini.png](https://github.com/Masikhule/Bias-Audit-Report-SA/blob/main/visuals/gini.png)).
+- **[Download Reference_List (ReferenceList.pdf)](https://github.com/Masikhule-Solutions/Bias-Audit-Report-SA/raw/main/ReferenceList.pdf)**: 7-slide Canva summary.
 
 ## Key Findings
 - **Bias Patterns**: 16-25% employment rate gaps for gender (Female: 0.557, Male: 0.715) and race (Non-White: 0.594, White: 0.845), validated by chi-squared tests (p<0.05) [<a href="#ref12">12</a>].
